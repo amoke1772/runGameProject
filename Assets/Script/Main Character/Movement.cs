@@ -12,7 +12,8 @@ public class Movement : MonoBehaviour
     public LayerMask groundLayer;
     private BoxCollider2D coll;
     private animationManeger animManiger;
-    public bool isRuning;
+    public bool isRuning = false;
+
     private void Start()
     {
         coll = GetComponent<BoxCollider2D>();
